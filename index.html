@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Pet Pantry</title>
+</head>
+
+<body>
+    <header>
+        <a href="#main" class="skip">Skip to main content</a>
+        <div class="logo">
+            <p>Pet Pantry</p>
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="active"> Home </a></li>
+                    <li><a href="pets.html"> Pets </a></li>
+                    <li><a href="recipes.html"> Recipes </a></li>
+                    <li><a href="travel.html"> Travel </a></li>
+                </ul>
+        </div>
+        </nav>
+        <label for="nav_check" class="hamburger">Menu</label>
+    </header>
+
+    <main>
+	    <div id="main">
+        <div class="home-img">
+            <img src="images/istock-182214502.jpg" alt="image of six dogs looking up">
+            
+        </div>
+	    </div>
+        <div class="welcome">
+            <h1>Welcome to Pet Pantry</h1>
+            <p>Your go-to destination for all things pets, recipes, and travel!</p>
+            <a href="#contactForm" class="welcome-button">Contact Us to know more</a>
+        </div>
+    <section class="intro-grid">
+        <div class="about">
+        <h2>About Us</h2>
+            <p>Our founders loved taking their pets on trips and soon realized other pet enthusiast did to. We were founded in 2019 by a group of friends who wanted to create a place where people could come together and share their love of pets, food, and travel. </p>
+        </div>
+        <div class="mission">
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide you with the best content on the web. We're committed to bringing you the latest and greatest in pet care, recipes, and travel. We're here to help you live your best life, and we're excited to be a part of your journey!</p>
+        </div>
+        <div class="about-community">
+            <h2>Community</h2>
+            <p>Our community offers insight into food, travel, and pet breeds. All of the recipes and pet stories shared are submitted from out community for your enjoyment. </p>
+        </div>
+    </section>
+
+        <div class="container">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/luna_02.jpg" alt="Husky laying in the snow">
+                </div>
+                <div class="card-content">
+                    <h3>Pets</h3>
+                    <p>Meet some of our favorite furry pals. Our online community shared fun facts and quirks about their pets.</p>
+                    </p>
+                </div>
+        </div>
+
+            <div class="card">
+               <div class="card-image">
+                    <img src="images/Midtown-Manhattan-Empire-State-Building-New-York.webp" alt="Empire State Building">
+               </div>
+               <div class="card-content">
+                    <h3>Travel</h3>
+                    <p>Our online community shared must see attractions at some of their favorite travel destinations.</p>
+       </div>
+            </div>
+            <div class="card">
+               <div class="card-image">
+                    <img src="images/Coconut-Mojitos2.jpg" alt="Mojito drink">
+               </div>
+               <div class="card-content">
+                    <h3>Recipes</h3>
+                    <p>Our online community shares stories behind each dish and delicious recipes for cuisine around the world.</p>
+               </div>
+            </div>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form id="contactForm" action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+                </form>
+                <div id="statusMessage"></div>
+            </div>
+            <script src="script.js"></script>
+</div>
+    </main>
+    <footer>
+		<p> Pet Pantry &copy; 2024</p>
+	</footer>
+</body>
